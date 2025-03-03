@@ -695,6 +695,7 @@ var cnRegReplace = new Map([
     [/^([\d\.]+)e([\d\.,]+) elves$/, '$1e$2 精灵'],
     [/^([\d\.,]+) elves$/, '$1 精灵'],
     [/^Generates (.+)$/, '生成 $1'],
+    [/^You were gone for ([\d\.,]+) days, ([\d\.,]+) hours, ([\d\.,]+) minutes, ([\d\.,]+) seconds.$/, '你离开了 $1 天 $2 小时 $3 分钟，$4 秒。'],
     [/^You were gone for ([\d\.,]+) hours, ([\d\.,]+) minutes, ([\d\.,]+) seconds.$/, '你离开了 $1 小时 $2 分钟，$3 秒。'],
     [/^You were gone for ([\d\.,]+) hours, ([\d\.,]+) minutes.$/, '你离开了 $1 小时 $2 分钟。'],
     [/^You were gone for ([\d\.,]+) minutes, ([\d\.,]+) seconds.$/, '你离开了 $1 分钟 $2 秒。'],
